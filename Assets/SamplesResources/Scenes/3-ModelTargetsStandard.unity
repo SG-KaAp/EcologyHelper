@@ -238,12 +238,6 @@ Transform:
   - {fileID: 1230044036}
   m_Father: {fileID: 1311687520}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &69735884 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4231221583463378216, guid: c02162fd9639a2643a976047a7386ad3,
-    type: 3}
-  m_PrefabInstance: {fileID: 1757671018}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &89678027
 GameObject:
   m_ObjectHideFlags: 0
@@ -476,33 +470,33 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: Vuforia_RZR_Toy
+  mTrackableName: plastic_disposable_cup_2
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Vuforia_RZR_Toy.xml
-  mBaseSize: 0.104935
-  mAspectRatioXY: 1.0669558
-  mAspectRatioXZ: 1.5984086
+  mDataSetPath: Vuforia/TrashModelsDB.xml
+  mBaseSize: 0.1883471
+  mAspectRatioXY: 0.75660473
+  mAspectRatioXZ: 1.0000005
   mShowBoundingBox: 0
   mOverrideSnappingPose: 0
-  mBBoxMin: {x: -0.053611, y: -0.008179, z: -0.083658}
-  mBBoxMax: {x: 0.051324, y: 0.103782, z: 0.084071}
-  mPreviewImage: {fileID: 2800000, guid: a5626782fb1e43debe169d5240151e83, type: 3}
+  mBBoxMin: {x: -0.0941784, y: -0.0408393, z: -0.0941542}
+  mBBoxMax: {x: 0.0941687, y: 0.101665, z: 0.094193}
+  mPreviewImage: {fileID: 0}
   mEnhanceRuntimeDetection: 0
   m3DGuideViewModel: {fileID: 0}
   m2DGuideViewImage: {fileID: 0}
   mGuideViewDisplayMode: 1
   m2DGuideViewMaterial: {fileID: 1515795094}
   m3DGuideViewMaterial: {fileID: 0}
-  mLength: 0.104935
-  mWidth: 0.11196101
-  mHeight: 0.167729
+  mLength: 0.1883471
+  mWidth: 0.1425043
+  mHeight: 0.18834719
   m2DGuideViewMaterials:
   - {fileID: 1515795094}
   m3DGuideViewMaterials: []
-  mSelectedGuideView: Front
-  mMotionHint: 1
+  mSelectedGuideView: 
+  mMotionHint: 0
   mTrackingMode: 1
-  mTrackingOptimization: 0
+  mTrackingOptimization: 1
   mTrackingOptimizationNeedsUpgrade: 0
   mHasRealisticTextures: 0
   mPreview: {fileID: 132368920}
@@ -550,8 +544,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 132368917}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Vuforia_RZR_Toy
-  mDatasetName: Vuforia/Vuforia_RZR_Toy.xml
+  mTargetName: plastic_disposable_cup_2
+  mDatasetName: Vuforia/TrashModelsDB.xml
   mCastedBehaviour: {fileID: 132368917}
   mModelTargetPreview: {fileID: 0}
 --- !u!1 &139176115
@@ -1590,7 +1584,6 @@ Transform:
   m_Children:
   - {fileID: 1940450170}
   - {fileID: 1175800437}
-  - {fileID: 69735884}
   m_Father: {fileID: 132368918}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &320988774
@@ -2366,8 +2359,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BasePath: Assets/SamplesResources/Recordings/
-  RecordingName: image_target.mp4
-  UseWebCam: 0
+  RecordingName: standard_model_target.mp4
+  UseWebCam: 1
 --- !u!1 &557359390
 GameObject:
   m_ObjectHideFlags: 0
@@ -4518,7 +4511,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1175800437
 Transform:
   m_ObjectHideFlags: 0
@@ -6780,74 +6773,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1749819197}
   m_CullTransparentMesh: 0
---- !u!1001 &1757671018
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 316836996}
-    m_Modifications:
-    - target: {fileID: 3599362570944558994, guid: c02162fd9639a2643a976047a7386ad3,
-        type: 3}
-      propertyPath: m_Name
-      value: Bottle
-      objectReference: {fileID: 0}
-    - target: {fileID: 4231221583463378216, guid: c02162fd9639a2643a976047a7386ad3,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.01416
-      objectReference: {fileID: 0}
-    - target: {fileID: 4231221583463378216, guid: c02162fd9639a2643a976047a7386ad3,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4231221583463378216, guid: c02162fd9639a2643a976047a7386ad3,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.02242
-      objectReference: {fileID: 0}
-    - target: {fileID: 4231221583463378216, guid: c02162fd9639a2643a976047a7386ad3,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4231221583463378216, guid: c02162fd9639a2643a976047a7386ad3,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4231221583463378216, guid: c02162fd9639a2643a976047a7386ad3,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4231221583463378216, guid: c02162fd9639a2643a976047a7386ad3,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4231221583463378216, guid: c02162fd9639a2643a976047a7386ad3,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4231221583463378216, guid: c02162fd9639a2643a976047a7386ad3,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4231221583463378216, guid: c02162fd9639a2643a976047a7386ad3,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c02162fd9639a2643a976047a7386ad3, type: 3}
 --- !u!1 &1782220612
 GameObject:
   m_ObjectHideFlags: 0
@@ -7599,7 +7524,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1940450170
 Transform:
   m_ObjectHideFlags: 0
