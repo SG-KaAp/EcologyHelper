@@ -93,7 +93,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 20201, guid: 0000000000000000f000000000000000, type: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 6aabab82237d77840bcd97260756e67c,
+    type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -1527,7 +1528,7 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: plastic_disposable_cup_2
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/TrashModelsDB.xml
+  mDataSetPath: Vuforia/plastic_disposable_cup_2.xml
   mBaseSize: 0.1883471
   mAspectRatioXY: 0.75660473
   mAspectRatioXZ: 1.0000005
@@ -1535,22 +1536,22 @@ MonoBehaviour:
   mOverrideSnappingPose: 0
   mBBoxMin: {x: -0.0941784, y: -0.0408393, z: -0.0941542}
   mBBoxMax: {x: 0.0941687, y: 0.101665, z: 0.094193}
-  mPreviewImage: {fileID: 0}
+  mPreviewImage: {fileID: 2800000, guid: 5c7f26ea08d44b398c40ca492d4d5b2f, type: 3}
   mEnhanceRuntimeDetection: 0
   m3DGuideViewModel: {fileID: 0}
   m2DGuideViewImage: {fileID: 0}
   mGuideViewDisplayMode: 0
   m2DGuideViewMaterial: {fileID: 0}
   m3DGuideViewMaterial: {fileID: 0}
-  mLength: 0.1
-  mWidth: 0.075660475
-  mHeight: 0.100000046
+  mLength: 0.1883471
+  mWidth: 0.1425043
+  mHeight: 0.18834719
   m2DGuideViewMaterials: []
   m3DGuideViewMaterials: []
-  mSelectedGuideView: 
-  mMotionHint: 0
+  mSelectedGuideView: GuideView_0000
+  mMotionHint: 1
   mTrackingMode: 1
-  mTrackingOptimization: 1
+  mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
   mHasRealisticTextures: 0
   mPreview: {fileID: 2003819624}
@@ -1587,7 +1588,7 @@ MonoBehaviour:
   mObserverBehaviour: {fileID: 2003819621}
   mHiddenRoot: {fileID: 0}
   mTargetName: plastic_disposable_cup_2
-  mDatasetName: Vuforia/TrashModelsDB.xml
+  mDatasetName: Vuforia/plastic_disposable_cup_2.xml
   mCastedBehaviour: {fileID: 2003819621}
   mModelTargetPreview: {fileID: 0}
 --- !u!1 &2049890874
