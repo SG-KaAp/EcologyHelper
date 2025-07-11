@@ -470,38 +470,38 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: plastic_disposable_cup_2
+  mTrackableName: Vuforia_RZR_Toy
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/TrashModelsDB.xml
-  mBaseSize: 0.1883471
-  mAspectRatioXY: 0.75660473
-  mAspectRatioXZ: 1.0000005
+  mDataSetPath: Vuforia/Vuforia_RZR_Toy.xml
+  mBaseSize: 0.104935
+  mAspectRatioXY: 1.0669558
+  mAspectRatioXZ: 1.5984086
   mShowBoundingBox: 0
   mOverrideSnappingPose: 0
-  mBBoxMin: {x: -0.0941784, y: -0.0408393, z: -0.0941542}
-  mBBoxMax: {x: 0.0941687, y: 0.101665, z: 0.094193}
-  mPreviewImage: {fileID: 0}
+  mBBoxMin: {x: -0.053611, y: -0.008179, z: -0.083658}
+  mBBoxMax: {x: 0.051324, y: 0.103782, z: 0.084071}
+  mPreviewImage: {fileID: 2800000, guid: a5626782fb1e43debe169d5240151e83, type: 3}
   mEnhanceRuntimeDetection: 0
   m3DGuideViewModel: {fileID: 0}
   m2DGuideViewImage: {fileID: 0}
   mGuideViewDisplayMode: 1
   m2DGuideViewMaterial: {fileID: 1515795094}
   m3DGuideViewMaterial: {fileID: 0}
-  mLength: 0.1883471
-  mWidth: 0.1425043
-  mHeight: 0.18834719
+  mLength: 0.104935
+  mWidth: 0.11196101
+  mHeight: 0.167729
   m2DGuideViewMaterials:
   - {fileID: 1515795094}
   m3DGuideViewMaterials: []
-  mSelectedGuideView: 
-  mMotionHint: 0
+  mSelectedGuideView: Front
+  mMotionHint: 1
   mTrackingMode: 1
-  mTrackingOptimization: 1
+  mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
   mHasRealisticTextures: 0
   mPreview: {fileID: 132368920}
   mAutoValidationDataSetName: 
-  mGuideViewDisplayModeNeedsUpgrade: 0
+  mGuideViewDisplayModeNeedsUpgrade: 1
 --- !u!4 &132368918
 Transform:
   m_ObjectHideFlags: 0
@@ -544,8 +544,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 132368917}
   mHiddenRoot: {fileID: 0}
-  mTargetName: plastic_disposable_cup_2
-  mDatasetName: Vuforia/TrashModelsDB.xml
+  mTargetName: Vuforia_RZR_Toy
+  mDatasetName: Vuforia/Vuforia_RZR_Toy.xml
   mCastedBehaviour: {fileID: 132368917}
   mModelTargetPreview: {fileID: 0}
 --- !u!1 &139176115
@@ -2360,7 +2360,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BasePath: Assets/SamplesResources/Recordings/
   RecordingName: standard_model_target.mp4
-  UseWebCam: 1
+  UseWebCam: 0
 --- !u!1 &557359390
 GameObject:
   m_ObjectHideFlags: 0
