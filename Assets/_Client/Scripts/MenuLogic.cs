@@ -7,5 +7,6 @@ namespace _Client.UI.Menu
     {
         public void LoadScene(string sceneName) => SceneManager.LoadScene(sceneName);
         public void ApplicationQuit() => Application.Quit();
+        public void Aboba() => Debug.Log("Aboba");
     }
 }

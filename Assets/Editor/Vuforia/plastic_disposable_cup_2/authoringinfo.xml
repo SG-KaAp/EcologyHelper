@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARInfo>
+<TargetSet version="27.0" toolVersion="11.3.4">
+<ModelTarget name="plastic_disposable_cup_2" targetId="e60b28cccf394ccfa55901ae52b679f1" version="14.0" toolVersion="11.3.4" bbox="-0.0941784 -0.0408393 -0.0941542 0.0941687 0.101665 0.094193" upVector="0 1 0" previewImage="e60b28cccf394ccfa55901ae52b679f1_preview.jpg"/>
+
+</TargetSet>
+
+<Assembly name="plastic_disposable_cup_2s_assembly" assemblyId="c570c4034d9140ae8b1187937350467e">
+<Part name="plastic_disposable_cup_2" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="GuideView_0000" translation="7.45058e-09 -1.11759e-08 0.296773" rotation="AD: 0.997955 0.13644 -0.549947 204.349" image="plastic_disposable_cup_2_GuideView_0000.png" trained="no">
+
+</EntryPoint>
+<EntryPoint name="GuideView_0001" translation="0 -9.31323e-10 0.296773" rotation="AD: 0.999967 0.017662 -0.523274 183.426" image="plastic_disposable_cup_2_GuideView_0001.png" trained="no">
+
+</EntryPoint>
+<EntryPoint name="GuideView_0002" translation="2.98023e-08 1.49012e-08 0.296773" rotation="AD: 0.999216 -0.0893778 -0.503434 162.038" image="plastic_disposable_cup_2_GuideView_0002.png" trained="no">
+
+</EntryPoint>
+<EntryPoint name="GuideView_0003" translation="7.45058e-09 0 0.296773" rotation="AD: 0.99484 0.245487 -0.51281 225.138" image="plastic_disposable_cup_2_GuideView_0003.png" trained="no">
+
+</EntryPoint>
+<EntryPoint name="GuideView_0004" translation="8.3819e-09 -1.00117e-08 0.296773" rotation="AD: -0.982868 -0.528911 0.545587 105.027" image="plastic_disposable_cup_2_GuideView_0004.png" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARInfo>
